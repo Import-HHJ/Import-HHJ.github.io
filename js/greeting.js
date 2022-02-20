@@ -17,6 +17,8 @@ function onLoginSubmit(info) {
   localStorage.setItem(USERNAME_STR, username);
 
   loginForm.classList.add(HIDDEN_CLASS_NAME);
+  br1.classList.add(HIDDEN_CLASS_NAME);
+  br2.classList.add(HIDDEN_CLASS_NAME);
   printH1(username);
 }
 
