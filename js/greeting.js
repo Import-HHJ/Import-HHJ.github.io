@@ -7,6 +7,9 @@ const br2 = document.querySelector("#aaa");
 const HIDDEN_CLASS_NAME = "hidden";
 const USERNAME_STR = "username";
 
+br1.classList.add(HIDDEN_CLASS_NAME);
+br2.classList.add(HIDDEN_CLASS_NAME);
+
 function onLoginSubmit(info) {
   info.preventDefault();
 
