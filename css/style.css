@@ -101,6 +101,7 @@ button {
   border-left: none;
   border-right: none;
   border-bottom: 3px solid white;
+  text-align: center;
 }
 
 .input::placeholder {
@@ -123,6 +124,7 @@ button {
   border-right: none;
   border-bottom: 3px solid white;
   transition: 0.5 ease-in-out;
+  text-align: center;
 }
 
 .ainput::placeholder {
